@@ -1,4 +1,7 @@
-/*/* your styles go here */
+@font-face {
+  font-family: code;
+  src: url("../fonts/code.otf");
+}
 #portfolio {
   margin-top: 5%;
   padding-top: 50px;
@@ -14,6 +17,10 @@
       margin-left: -7.8%;
       width: 100%;
     }
+}
+
+.port-overlay {
+  font-family: code;
 }
 
 @media screen and (min-width: 991px) and (max-width: 1199px) {
