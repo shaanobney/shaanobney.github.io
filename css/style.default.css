@@ -4,6 +4,10 @@ html {
 body {
   height: 100%;
 }
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px solid gray;
+}
 .italic {
   font-style: italic;
 }
