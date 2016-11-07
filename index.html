@@ -29,7 +29,7 @@
             <div class="col-md-8">
               <p class="italic">The Portfolio of</p>
               <h1 class="display-1">Shaan Obney</h1>
-              <p class="italic">Behold! An Intro Page</p>
+              <li id="todaysWeather" class="italic" data-collection="weather"></li>
             </div>
           </div>
         </div>
@@ -190,6 +190,16 @@
     <script src="js/jquery.scrollTo.min.js"></script>
     <!-- main script-->
     <script src="js/front.js"></script>
+
+    <script>
+    var monthNames = [ "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December" ];
+    var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+
+    var newDate = new Date();
+    newDate.setDate(newDate.getDate());
+    $('#date').html(dayNames[newDate.getDay()] + ", " + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear());
+    </script>
 
   </body>
 </html>
