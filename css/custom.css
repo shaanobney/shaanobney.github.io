@@ -1,6 +1,7 @@
 /*/* your styles go here */
 #portfolio {
   margin-top: 5%;
+  padding-top: 50px;
 }
 
 @keyframes slidein {
