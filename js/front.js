@@ -21,7 +21,7 @@ function sticky() {
 
     $(".header").sticky();
 
-} / function utils() {
+} function utils() {
 
     /* tooltips */
 
